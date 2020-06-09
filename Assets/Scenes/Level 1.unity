@@ -4191,16 +4191,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 428617969}
     m_Modifications:
-    - target: {fileID: 3397591158298686789, guid: e2313bbd599555f40b6b7c1893fe4850,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397591158298686789, guid: e2313bbd599555f40b6b7c1893fe4850,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3397591158298686792, guid: e2313bbd599555f40b6b7c1893fe4850,
         type: 3}
       propertyPath: m_Name
@@ -4281,6 +4271,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 860870000}
+    - target: {fileID: 155976975439889401, guid: 8da4503679050464a8aa1e28bdc0736b,
+        type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 155976975439889403, guid: 8da4503679050464a8aa1e28bdc0736b,
         type: 3}
       propertyPath: m_Name
@@ -4289,7 +4284,7 @@ PrefabInstance:
     - target: {fileID: 155976975439889403, guid: 8da4503679050464a8aa1e28bdc0736b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 155976975439889407, guid: 8da4503679050464a8aa1e28bdc0736b,
         type: 3}
@@ -4745,6 +4740,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642419154719005343, guid: cacedf91cca63e943a9716bc38ec9dd5,
+        type: 3}
+      propertyPath: orthographic size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642419154719005343, guid: cacedf91cca63e943a9716bc38ec9dd5,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642419154719005343, guid: cacedf91cca63e943a9716bc38ec9dd5,
+        type: 3}
+      propertyPath: orthographic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cacedf91cca63e943a9716bc38ec9dd5, type: 3}
