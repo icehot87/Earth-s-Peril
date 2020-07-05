@@ -1,12 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class Block : MonoBehaviour
 {
     [SerializeField] AudioClip breakSound;
     [SerializeField] GameObject blockSparklesVFX;
-    [SerializeField] int maxHits;
+    [SerializeField] Sprite[] hitSprites;
 
     Level level;
 
@@ -37,10 +39,14 @@ public class Block : MonoBehaviour
     private void HandleHit()
     {
         timesHit++;
+        int maxHits = hitSprites.Length + 1;
         if (timesHit >= maxHits)
         {
             DestroyBlock();
-            timesHit = 0;
+        }
+        else
+        {
+            ShowNextHitSprite();
         }
     }
 
@@ -57,5 +63,18 @@ public class Block : MonoBehaviour
     {
         GameObject sparkles = Instantiate(blockSparklesVFX, transform.position, transform.rotation);
         Destroy(sparkles, 1f);
+    }
+
+    private void ShowNextHitSprite()
+    {
+        try
+        {
+            int spriteIndex = timesHit - 1;
+            GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
+        }
+        catch (IndexOutOfRangeException e)
+        {
+            UnityEngine.Debug.Log(e);
+        }
     }
 }
