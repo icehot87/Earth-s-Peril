@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paddle1: {fileID: 0}
-  xPush: 2
+  xPush: 3
   yPush: 15
   ballSounds:
   - {fileID: 8300000, guid: 9b6461258bde8dd43b8fb1e8c82b536c, type: 3}
