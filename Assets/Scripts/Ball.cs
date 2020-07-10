@@ -8,6 +8,7 @@ public class Ball : MonoBehaviour
     [SerializeField] float yPush = 15f;
     [SerializeField] AudioClip[] ballSounds;
     [SerializeField] float randomFactor = 0.2f;
+    [SerializeField] float ballSpeed = 13f;
 
     // state
     Vector2 paddleToBallVector;
@@ -34,6 +35,7 @@ public class Ball : MonoBehaviour
             LockBallToPaddle();
             LaunchOnMouseClick();
         }
+        myRigidBody2D.velocity = ballSpeed * (myRigidBody2D.velocity.normalized);
     }
 
     private void LaunchOnMouseClick()

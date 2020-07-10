@@ -288,6 +288,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1192594296752786131, guid: 0537cb677bf380d43acc95d2c51f7ddc,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1192594296997192066, guid: 0537cb677bf380d43acc95d2c51f7ddc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -347,6 +352,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Play Space
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192594297517000244, guid: 0537cb677bf380d43acc95d2c51f7ddc,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192594297890824787, guid: 0537cb677bf380d43acc95d2c51f7ddc,
+        type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0537cb677bf380d43acc95d2c51f7ddc, type: 3}
@@ -1123,6 +1138,11 @@ PrefabInstance:
     - target: {fileID: 3397591158298686794, guid: e2313bbd599555f40b6b7c1893fe4850,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190919992994589892, guid: e2313bbd599555f40b6b7c1893fe4850,
+        type: 3}
+      propertyPath: m_UsedByEffector
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2490,6 +2510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164539287972021207, guid: 81190006389da9547ae1054f60ba3ad8,
+        type: 3}
+      propertyPath: gameSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81190006389da9547ae1054f60ba3ad8, type: 3}
