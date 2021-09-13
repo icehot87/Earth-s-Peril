@@ -4,7 +4,7 @@ This is a block breaker style game, with the theme to defend :earth_asia: from :
 
 # Story
 
-In the future, we send out a single into deeper space in search of intelligence, little we knew that this can be picked up 
+In the future, we send out a signal into deeper space in search of intelligence, little we knew that this can be picked up 
 by rouge Aliens looking for resources like most of the intelligent species.
 
 They send out a recon 🛸 to investigate our resources and found the Earth's core as a rare material they call as Canratius.
